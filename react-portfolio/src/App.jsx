@@ -22,7 +22,7 @@ function App() {
 							</li>
 							<li>
 								<a
-									href='/assets/Uday_Vishwakarma.pdf'
+									href='/assets/UNV_Resume.pdf'
 									className=' bg-gradient-to-r
 								from-cyan-500 to-teal-300 text-white px-4 py-2 rounded-md ml-8'
 									download>
