@@ -3,6 +3,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { FaBlogger } from "react-icons/fa";
 import { useState } from "react";
+import Resume from "./assets/UNV_Resume.pdf";
 
 function App() {
 	const [darkMode, setDarkMode] = useState(false);
@@ -22,7 +23,7 @@ function App() {
 							</li>
 							<li>
 								<a
-									href='/assets/UNV_Resume.pdf'
+									href={Resume}
 									className=' bg-gradient-to-r
 								from-cyan-500 to-teal-300 text-white px-4 py-2 rounded-md ml-8'
 									download>
