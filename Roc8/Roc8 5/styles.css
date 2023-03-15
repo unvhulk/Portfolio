@@ -1,0 +1,21 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+.stopwatch {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+.timer {
+	display: grid;
+	justify-self: center;
+	padding: 4rem;
+}
+.controls {
+	display: grid;
+	padding: 1rem;
+	margin-left: 2rem;
+	grid-template-columns: 1fr 1fr 1fr;
+	cursor: pointer;
+}

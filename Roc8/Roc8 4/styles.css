@@ -1,0 +1,14 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+}
+.todoList {
+	display: grid;
+}
+.done span {
+	text-decoration: line-through;
+}
+ul {
+	list-style-type: none;
+}
